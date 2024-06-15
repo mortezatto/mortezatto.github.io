@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morteza Abedi - Personal Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <a class="navbar-brand" href="index.html">Morteza Abedi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="posts.html">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="publications.html">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Morteza Abedi</h1>
+        <p>Graduated Master of Computer Sciences</p>
+    </header>
+    <main class="container mt-5">
+        <section id="profile-biography" class="my-5 biography-container">
+            <div class="profile-container">
+                <img src="/image/profile.png" alt="Your Name" class="profile-pic">
+                <div class="profile-info">
+                    <h2>Morteza Abedi</h2>
+                    <h4>Graduated Master of Computer Sciences</h4>
+                </div>
+                <div class="social-links">
+                    <a href="path/to/your/cv.pdf" target="_blank" title="CV">
+                        <img src="/image/cv.png" alt="CV">
+                    </a>
+                    <a href="mailto:your.email@example.com" title="Email">
+                        <img src="/image/email.png" alt="Email">
+                    </a>
+                    <a href="https://github.com/your-github" target="_blank" title="GitHub">
+                        <img src="/image/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=your-scholar-id" target="_blank" title="Google Scholar">
+                        <img src="/image/google_scholar.png" alt="Google Scholar">
+                    </a>
+                    <a href="https://linkedin.com/in/your-linkedin" target="_blank" title="LinkedIn">
+                        <img src="/image/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="biography-text">
+                <h2 class="section-title">Biography</h2>
+                <p>I recently (Feb 2024) defended my Master's thesis in Computer Engineering with a specialization in Artificial Intelligence at the esteemed Institute for Advanced Studies in Basic Sciences (IASBS) under superviosn of <a href="https://scholar.google.com/citations?hl=en&user=xPrel1MAAAAJ&view_op=list_works&sortby=pubdate" target="_blank"> Prof. Dr.-Ing. Mahdi Bohlouli</a>. During my studies, I had the opportunity to gain valuable teaching experience as a lecturer assistant for a course. In my master's thesis, I conducted an in-depth study of ECG signals using the MIT-BIH datasets. This rigorous work, which involved advanced methodologies such as Conditional Generative Adversarial Networks (C-GAN) and Transfer Learning, was recognized for its excellence during a highly successful defense that I completed with an outstanding evaluation. The primary objective of my work is to develop a robust monitoring system capable of providing early warnings for potential health problems, thereby significantly enhancing patient care and well-being.
+                    </p>
+            </div>
+        </section>
+        <section id="education-interests" class="my-5">
+        
+            <div class="col-md-6 education-column">
+                 <h2 class="section-title">Education</h2>
+                 <ul class="education-list">
+                     <li><img src="/image/education.png" alt="Bullet Icon" class="bullet-icon"> MA,  The Institute for Advanced Studies in Basic Sciences (IASBS), Iran, Oct 2020 - Feb 2024</li>
+                     <li><img src="/image/education.png" alt="Bullet Icon" class="bullet-icon"> BA, Gonabad University, Iran, Dec 2015 - Sep 2019</li>
+                 </ul>
+            </div>
+
+        </section>   
+            <div id= "col-md-6 research" class="col-md-6">
+                <h2 class="section-title">Research Interests</h2>
+                <ul class="research-list">
+                    <li><img src="/image/research.png" alt="Bullet Icon" class="bullet-icon"> Machine Learning</li>
+                    <li><img src="/image/research.png" alt="Bullet Icon" class="bullet-icon"> Deep Learning</li>
+                    <li><img src="/image/research.png" alt="Bullet Icon" class="bullet-icon"> Computer Vision </li>
+                    <li><img src="/image/research.png" alt="Bullet Icon" class="bullet-icon"> AI Medical </li>
+                    <li><img src="/image/research.png" alt="Bullet Icon" class="bullet-icon"> Signal Procssing </li>
+                    <li><img src="/image/research.png" alt="Bullet Icon" class="bullet-icon"> Cognitive Sciences </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="publications" class="my-5">
+            <h2 class="section-title">Publications</h2>
+            <ul class="paper-list">
+                <li><img src="/image/paper.png" alt="Bullet Icon" class="bullet-icon"> <a href="#">Publication Title</a></li>
+                <li><img src="/image/paper.png" alt="Bullet Icon" class="bullet-icon"> <a href="#">Publication Title</a></li>
+            </ul>
+        </section>
+        <section id="contact" class="my-5">
+            <h2 class="section-title">Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Morteza Abedi. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

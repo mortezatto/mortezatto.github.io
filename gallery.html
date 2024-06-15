@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morteza Abedi - Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="body.css">
+    <style>
+        .gallery-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .gallery-container h2 {
+            margin-bottom: 30px;
+            font-family: 'Georgia', 'Times New Roman', serif;
+        }
+        .gallery-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery-item {
+            flex: 1 1 30%;
+            margin: 10px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 250px; /* Fixed height for uniformity */
+            object-fit: cover; /* Ensures the image covers the set dimensions */
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .gallery-item:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0);
+            transition: background-color 0.2s ease;
+        }
+        
+        .gallery-item:hover:before {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .gallery-item .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(10, 8, 8);
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+        
+        .gallery-item:hover .image-text {
+            opacity: 1;
+        }
+
+       
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Morteza Abedi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="posts.html">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="publications.html">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Gallery</h1>
+    </header>
+
+    <main class="container mt-5">
+        <section class="gallery-container">
+            <h2>My Selective Pictures</h2>
+            <div class="gallery-row">
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/iasbs-1.JPG" alt="Gallery Image 1">
+                    <div class="image-text">IASBS Spring 2024</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Bonn-Meet.jpg" alt="Gallery Image 1">
+                    <div class="image-text">Bonn Meet 2024</div>
+                </div>
+
+                
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Tehran-IoTrain.JPG" alt="Gallery Image 1">
+                    <div class="image-text">Tehran IoTrain Erasmus+ Project Meet 2023</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Romania-Present.jpg" alt="Gallery Image 1">
+                    <div class="image-text">Bucharest Meet 2023</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Siegien .jpg" alt="Gallery Image 1">
+                    <div class="image-text">Sigien, Germany 2022</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Siegien-2022.jpeg" alt="Gallery Image 1">
+                    <div class="image-text">Visiting Siegien University as part of IoTrain Erasmus+ Project 2022, Germany</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Forest-Bonn.jpeg" alt="Gallery Image 1">
+                    <div class="image-text">Our Team, Bonn, Germany 2022</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Romania-2023.jpg" alt="Gallery Image 2">
+                    <div class="image-text">Meet My supervisor , Bucharest, Romania 2023</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Spring-2023-IASBS.JPG" alt="Gallery Image 1">
+                    <div class="image-text">Our Lab Time</div>
+                </div>
+
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/iasbs-2.jpg" alt="Gallery Image 2">
+                    <div class="image-text">IASBS Winter 2021</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/simorgh.jpg" alt="Gallery Image 3">
+                    <div class="image-text">Symorgh Park Neyshaboor 2021</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/Ahvaz-Winter-School.jpg" alt="Gallery Image 2">
+                    <div class="image-text">Ahvaz Winter School 2023</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="image/Gallery/iasbs-3.jpg" alt="Gallery Image 4">
+                    <div class="image-text">IASBS Spring 2022</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Gallery/Mori-1.jpg" alt="Gallery Image 5">
+                    <div class="image-text">IASBS Fall 2022</div>
+                </div>
+            </div>
+            <!-- Add this after the .gallery-row section -->
+
+        </section>
+    </main>
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Morteza Abedi. All rights reserved.</p>
+    </footer>
+</body>
+</html>

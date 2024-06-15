@@ -1,0 +1,169 @@
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding-top: 50px; /* Adjust based on the height of your navbar */
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+
+header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    padding: var(--header-padding);
+    margin: var(--header-margin) 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: var(--header-name-font-size);
+    margin: 0;
+}
+
+header p {
+    font-size: var(--header-title-font-size);
+    margin: 0;
+}
+
+h2 {
+    color: #343a40;
+}
+h4 {
+    font-size: 16.5px;
+}
+
+.py-5 {
+    padding-bottom: 1rem !important;
+    padding-top: 2rem !important;
+}
+.biography-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.biography-text {
+    flex: 1 1 46%;
+    margin-left: 98px;
+}
+
+.profile-container {
+    flex: 1 1 11%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+}
+
+.profile-pic {
+    width: 160px;
+    height: 203px;
+    border-radius: 13%;
+    object-fit: cover;
+    border: 2px solid #343a40;
+    margin-bottom: 14px;
+}
+
+.profile-info {
+    text-align: center; /* Center text horizontally */
+}
+
+.profile-info h2 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    margin-bottom: 5px;
+}
+
+.profile-info h4 {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.social-links {
+    margin-top: -12px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #343a40;
+    font-size: 24px;
+}
+
+.social-links a img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+.section-title {
+    margin-top: 4px;
+    margin-bottom: 26px;
+}
+
+.education-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+.col-md-6 {
+    max-width: 112%;
+    }
+
+.education-list li {
+    list-style: none; /* Remove default bullet points */
+}
+
+.research-list li {
+    list-style: none; /* Remove default bullet points */
+}
+
+.paper-list{
+    list-style: none; /* Remove default bullet points */
+}
+.section-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.biography-text p {
+    display: inline-block;
+}
+
+.paper-list li {
+    list-style: none; /* Remove default bullet points */
+}
+
+
+
+.paper-list li {
+    list-style: none; /* Remove default bullet points */
+    position: relative;
+    padding-left: 50px; /* Adjust this value to align the text with the icons */
+}
+
+.paper-list li img.bullet-icon {
+    position: absolute;
+    left: 0; /* Position the icon at the left of the list item */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the icon */
+}
+
+
+.bullet-icon {
+    width: 22px;
+    height: 23px;
+    margin-right: 19px;
+    vertical-align: middle;
+}
