@@ -1,0 +1,110 @@
+[
+  {
+    "tag": "M.Sc. Thesis · 2024",
+    "title": "TL-CGAN: Adversarially Robust ECG Classification",
+    "description": "A transfer-learning framework built on conditional GANs to strengthen electrocardiographic (ECG) signal classifiers against adversarial attacks — improving reliability for downstream clinical decision-support systems.",
+    "meta_type": "text",
+    "meta": "Conditional GAN · Transfer Learning · Signal Processing · Adversarial Robustness",
+    "link": "#pub-tlcgan",
+    "link_text": "Paper"
+  },
+  {
+    "tag": "Collaborative Research · 2024",
+    "title": "Histopathological Skin Cancer Segmentation",
+    "description": "A deep neural network approach to segmenting malignant tissue in histopathological skin cancer images, developed with a multi-institution research team as part of ongoing medical imaging work.",
+    "meta_type": "text",
+    "meta": "Semantic Segmentation · Medical Imaging · Deep Learning",
+    "link": "#pub-skincancer",
+    "link_text": "Paper"
+  },
+  {
+    "tag": "2026",
+    "title": "Anomaly Detection in Organizational Requests (Oracle APEX)",
+    "description": "Detected anomalies based on user request volume, calculated anomaly scores, and identified behavioral patterns in the database.",
+    "meta_type": "chips",
+    "meta": ["Oracle APEX", "Anomaly Detection", "Database"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "2025",
+    "title": "Behavioral Anomaly Detection in Autism Patient Data",
+    "description": "Developed models to detect behavioral anomalies in autism patient data for clinical insight and early intervention support.",
+    "meta_type": "chips",
+    "meta": ["Anomaly Detection", "Healthcare", "Behavioral Data"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "2025",
+    "title": "Anomaly Detection of Critical Components in Industrial Production Line Data",
+    "description": "Built anomaly detection systems for critical components using industrial production line data to improve reliability and reduce downtime.",
+    "meta_type": "chips",
+    "meta": ["Industrial IoT", "Anomaly Detection", "Time-Series"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "2025",
+    "title": "Federated Learning Models for Optimization and Security of Sensitive Industrial Data",
+    "description": "Designed federated learning approaches to optimize models while preserving privacy and security of sensitive industrial data.",
+    "meta_type": "chips",
+    "meta": ["Federated Learning", "Privacy", "Industrial AI"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "2023 – 2024",
+    "title": "Medical Signal Processing for Detection of Specific Disease Anomalies",
+    "description": "Applied signal processing and machine learning techniques on medical signals to detect disease-related anomalies.",
+    "meta_type": "chips",
+    "meta": ["Medical AI", "Signal Processing", "Anomaly Detection"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "Erasmus+ IoTrain · 2022 – 2024",
+    "title": "IoT Research & Capacity-Building Consortium",
+    "description": "Research staff on an EU-funded consortium project applying IoT and intelligent systems across industry use cases, including quality monitoring, staff mobility, and international summer/winter schools.",
+    "meta_type": "chips",
+    "meta": ["IoT", "Applied AI", "International Collaboration"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "2022",
+    "title": "Time-Series Data Preparation and Analysis for AI Algorithms",
+    "description": "Prepared and analyzed time-series datasets to make them ready for machine learning and deep learning algorithms.",
+    "meta_type": "chips",
+    "meta": ["Time-Series", "Data Preparation", "AI Pipelines"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "B.Sc. Thesis · 2019",
+    "title": "Handwritten Digit & Facial Emotion Recognition",
+    "description": "Deep learning models for recognizing handwritten numbers and identifying human facial emotional states, exploring early computer-vision architectures for classification tasks.",
+    "meta_type": "text",
+    "meta": "Computer Vision · CNNs · Emotion Recognition",
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "2021",
+    "title": "Machine Learning & Deep Learning on Standard Datasets",
+    "description": "Implemented classification, clustering, and image processing algorithms on standard datasets such as MNIST and CIFAR.",
+    "meta_type": "chips",
+    "meta": ["MNIST", "CIFAR", "Deep Learning", "Computer Vision"],
+    "link": null,
+    "link_text": null
+  },
+  {
+    "tag": "2020",
+    "title": "Twitter Data Collection and Analysis Pipeline (NLP)",
+    "description": "Built a complete pipeline for collecting Twitter data and analyzing it using Natural Language Processing techniques.",
+    "meta_type": "chips",
+    "meta": ["NLP", "Twitter API", "Data Pipeline"],
+    "link": null,
+    "link_text": null
+  }
+]

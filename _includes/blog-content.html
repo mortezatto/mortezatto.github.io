@@ -1,0 +1,47 @@
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text hero-text--full">
+      <div class="eyebrow">Writing</div>
+      <h1>Blog</h1>
+      <p class="role">{{ page.hero_role }}</p>
+    </div>
+  </div>
+</div>
+<main>
+  <section class="section--flush">
+    {% if site.posts.size > 0 %}
+    <div class="post-grid">
+      {% for post in site.posts %}
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        <div class="post-card-meta">
+          <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+          {% assign words = post.content | number_of_words %}
+          {% assign read_min = words | divided_by: 200 | at_least: 1 %}
+          <span>{{ read_min }} min read</span>
+        </div>
+        <h3>{{ post.title }}</h3>
+        <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+        {% if post.tags %}
+        <div class="chip-row">
+          {% for t in post.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+        </div>
+        {% endif %}
+        <span class="post-card-more">Read post <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="project-card pointer-card--centered">
+      <div class="project-icon icon-badge--centered"><i class="fa-solid fa-pen"></i></div>
+      <div class="project-tag">Coming Soon</div>
+      <h3 class="mt-sm">First post in progress</h3>
+      <p class="p-desc">
+        I'm working on write-ups covering adversarial robustness in biomedical signals and
+        lessons from the IoTrain project. Check back soon, or reach out directly if you'd
+        like to talk research in the meantime.
+      </p>
+      <p class="p-meta"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+    {% endif %}
+  </section>
+</main>

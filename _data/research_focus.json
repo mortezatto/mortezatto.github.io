@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Federated Learning for Healthcare",
+    "description": "collaborative, privacy-preserving model training across institutions without centralizing sensitive medical data — an active research interest alongside the adversarial robustness work below."
+  },
+  {
+    "title": "Adversarial Robustness in Medical Signals",
+    "description": "strengthening ECG signal classifiers against adversarial attacks using conditional GANs and transfer learning."
+  },
+  {
+    "title": "Deep Learning for Healthcare",
+    "description": "applying CNNs and generative models to biomedical signal and image analysis, including histopathological segmentation."
+  },
+  {
+    "title": "Applied IoT Intelligence",
+    "description": "deploying intelligent-systems research within the Erasmus+ IoTrain consortium across real-world industry use cases."
+  },
+  {
+    "title": "Computer Vision Foundations",
+    "description": "early-stage work on handwritten digit recognition and facial emotion classification."
+  }
+]

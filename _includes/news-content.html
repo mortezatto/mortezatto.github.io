@@ -1,0 +1,25 @@
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text hero-text--full">
+      <div class="eyebrow">Updates</div>
+      <h1>News</h1>
+      <p class="role">{{ page.hero_role }}</p>
+    </div>
+  </div>
+</div>
+<main>
+  <section id="news-list" class="section--flush">
+    <div class="news-list">
+      {% for item in site.data.news %}
+      <div class="news-item">
+        <div class="news-date">{{ item.date }}</div>
+        <div class="news-icon"><i class="{{ item.icon | default: 'fa-solid fa-circle-info' }}"></i></div>
+        <div class="news-body">
+          <span class="news-tag">{{ item.type }}</span>
+          <p>{{ item.html }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>

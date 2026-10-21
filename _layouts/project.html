@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text hero-text--full">
+      <div class="eyebrow">{{ page.tag }}{% if page.status %} · {{ page.status }}{% endif %}</div>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="role">{{ page.subtitle }}</p>{% endif %}
+    </div>
+  </div>
+</div>
+<main>
+<a href="{{ '/projects/' | relative_url }}" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+
+{% if page.tags %}
+<div class="chip-row project-detail-tags">
+  {% for t in page.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+</div>
+{% endif %}
+
+{% if page.thumbnail %}
+<div class="project-cover">
+  <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+</div>
+{% endif %}
+
+<div class="content-body">
+{{ content }}
+</div>
+
+{% if page.links.code or page.links.demo or page.links.paper %}
+<div class="chip-row project-detail-links">
+  {% if page.links.code %}<a class="project-link-btn" href="{{ page.links.code }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
+  {% if page.links.demo %}<a class="project-link-btn" href="{{ page.links.demo }}" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>{% endif %}
+  {% if page.links.paper %}<a class="project-link-btn" href="{{ page.links.paper | relative_url }}"><i class="fa-solid fa-file"></i> Paper</a>{% endif %}
+</div>
+{% endif %}
+</main>

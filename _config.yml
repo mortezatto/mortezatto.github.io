@@ -1,0 +1,52 @@
+title: "Morteza Abedi"
+description: "AI/ML Researcher — robust deep learning for medical signals and applied IoT intelligence."
+
+# --- Deployment ---
+# For a GitHub Pages USER site (repo named exactly "yourusername.github.io",
+# served at the domain root), leave baseurl as "" and set url to your domain.
+# For a PROJECT site (any other repo name, served at
+# yourusername.github.io/reponame), set baseurl to "/reponame" instead.
+url: "https://mortezatto.github.io"    # placeholder — update to his real GitHub username
+baseurl: ""
+
+name: "Morteza Abedi"
+initials: "MA"
+author: "Morteza Abedi"
+email: "morteza.abedi.it@gmail.com"
+phone: "+98 901 503 5916"
+phone_href: "+989015035916"
+location: "Neyshabur, Khorasan Razavi, Iran"
+
+job_title: "AI/ML Researcher"
+affiliation: "Institute for Advanced Studies in Basic Sciences (IASBS)"
+affiliation_short: "IASBS, Zanjan"
+affiliation_location: "Neyshabur, Iran"
+
+avatar: /assets/img/og-cover.png     # used as the social-share preview image (og:image)
+
+# Placeholders — swap "#" for the real profile URLs when available.
+socials:
+  github_url: "#"
+  linkedin_url: "https://www.linkedin.com/in/morteza-abedi-581b18154"
+  scholar_url: "#"
+  orcid_url: "https://orcid.org/0009-0007-6397-1962"
+
+# --- Build settings ---
+markdown: kramdown
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-sitemap
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - SETUP.md
+  - vendor/
+  - node_modules/
