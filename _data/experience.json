@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lecturer-assistant-ml-iot",
+    "title": "Lecturer Assistant — Machine Learning &amp; Deep Learning in IoT",
+    "org": "IASBS, Zanjan · Prof. Dr.-Ing. Mahdi Bohlouli",
+    "dates": "Apr – Sep 2024",
+    "open": true,
+    "tags": ["Machine Learning", "Deep Learning", "IoT", "Teaching"],
+    "bullets": [
+      "Assisted in course delivery for a graduate-level ML/DL in IoT course.",
+      "Prepared teaching materials and supporting exercises.",
+      "Supported student learning through office hours and assessment feedback."
+    ]
+  },
+  {
+    "id": "senior-research-engineer-isg",
+    "title": "Senior Research Engineer — Intelligent System Group (ISG)",
+    "org": "IASBS, Zanjan · Prof. Dr.-Ing. Mahdi Bohlouli",
+    "dates": "Jan 2021 – Feb 2024",
+    "open": false,
+    "tags": ["AI Research", "Machine Learning", "Deep Learning", "Medical Healthcare"],
+    "bullets": [
+      "Conducted advanced research in AI, machine learning, and deep learning for medical healthcare applications.",
+      "Contributed to team moderation and broader lab initiatives within the Intelligent System Group."
+    ]
+  },
+  {
+    "id": "research-staff-iotrain",
+    "title": "Research Staff — IoTrain Erasmus+ Project",
+    "org": "IASBS, Zanjan · Prof. Dr.-Ing. Mahdi Bohlouli",
+    "dates": "Sep 2022 – Dec 2024",
+    "open": false,
+    "tags": ["IoT", "EU Consortium", "Applied Research"],
+    "bullets": [
+      "Contributed to IoT-focused research and project deliverables across a multi-country EU consortium.",
+      "Collaborated with partner institutions on quality monitoring and capacity-building activities."
+    ]
+  },
+  {
+    "id": "ta-intelligent-systems-iot",
+    "title": "Teaching Assistant — Intelligent Systems &amp; Applications in IoT",
+    "org": "IASBS, Zanjan",
+    "dates": "Fall 2023",
+    "open": false,
+    "tags": ["IoT", "Teaching"],
+    "bullets": [
+      "Supported course instruction and student assessments."
+    ]
+  },
+  {
+    "id": "ta-distributed-systems",
+    "title": "Teaching Assistant — Distributed Systems",
+    "org": "IASBS, Zanjan",
+    "dates": "Winter 2024",
+    "open": false,
+    "tags": ["Distributed Systems", "Teaching"],
+    "bullets": [
+      "Facilitated tutorials and graded assignments."
+    ]
+  },
+  {
+    "id": "css-community-member",
+    "title": "Member, Computer Science Community",
+    "org": "University of Gonabad",
+    "dates": "Fall 2016 – Fall 2017",
+    "open": false,
+    "tags": [],
+    "bullets": [
+      "Participated in collaborative projects and community initiatives."
+    ]
+  }
+]

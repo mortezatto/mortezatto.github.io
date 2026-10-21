@@ -1,0 +1,8 @@
+---
+# Front matter (even empty) makes Jekyll process this through Liquid,
+# so {{ site.url }} below actually gets replaced with the real domain.
+---
+User-agent: *
+Allow: /
+
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml

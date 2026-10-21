@@ -1,0 +1,182 @@
+[
+    {
+        "category": "Research Expertise",
+        "subtitle": "The problems I actually work on.",
+        "wide": true,
+        "items": [
+            {
+                "name": "Machine Learning",
+                "icon": "fa-solid fa-brain"
+            },
+            {
+                "name": "Deep Learning",
+                "icon": "fa-solid fa-network-wired"
+            },
+            {
+                "name": "Federated Learning",
+                "icon": "fa-solid fa-share-nodes"
+            },
+            {
+                "name": "Medical AI",
+                "icon": "fa-solid fa-heart-pulse"
+            },
+            {
+                "name": "Biomedical Signal Processing",
+                "icon": "fa-solid fa-wave-square"
+            },
+            {
+                "name": "Adversarial Machine Learning",
+                "icon": "fa-solid fa-shield-halved"
+            },
+            {
+                "name": "Transfer Learning",
+                "icon": "fa-solid fa-arrows-rotate"
+            },
+            {
+                "name": "Computer Vision",
+                "icon": "fa-solid fa-eye"
+            }
+        ],
+        "category_icon": "fa-solid fa-flask"
+    },
+    {
+        "category": "Programming",
+        "subtitle": "Where the models get built.",
+        "wide": true,
+        "items": [
+            {
+                "name": "Python",
+                "icon": "fa-brands fa-python"
+            },
+            {
+                "name": "NumPy",
+                "icon": "fa-solid fa-signal"
+            },
+            {
+                "name": "Pandas",
+                "icon": "fa-solid fa-table"
+            },
+            {
+                "name": "Scikit-Learn",
+                "icon": "fa-solid fa-diagram-project"
+            },
+            {
+                "name": "TensorFlow",
+                "icon": "fa-solid fa-microchip"
+            },
+            {
+                "name": "Keras",
+                "icon": "fa-solid fa-layer-group"
+            },
+            {
+                "name": "PyTorch",
+                "icon": "fa-solid fa-fire"
+            },
+            {
+                "name": "OpenCV",
+                "icon": "fa-solid fa-camera"
+            },
+            {
+                "name": "YOLO",
+                "icon": "fa-solid fa-crosshairs"
+            },
+            {
+                "name": "FedAvg",
+                "icon": "fa-solid fa-share-nodes"
+            },
+            {
+                "name": "NLTK",
+                "icon": "fa-solid fa-comment-dots"
+            },
+            {
+                "name": "MATLAB",
+                "icon": "fa-solid fa-square-root-variable"
+            },
+            {
+                "name": "C++",
+                "icon": "fa-solid fa-code"
+            }
+        ],
+        "category_icon": "fa-solid fa-code"
+    },
+    {
+        "category": "Data &amp; Databases",
+        "subtitle": "Structured or not, as the problem demands.",
+        "wide": false,
+        "items": [
+            {
+                "name": "SQL",
+                "icon": "fa-solid fa-database"
+            },
+            {
+                "name": "MySQL",
+                "icon": "fa-solid fa-database"
+            },
+            {
+                "name": "NoSQL",
+                "icon": "fa-solid fa-layer-group"
+            },
+            {
+                "name": "Oracle APEX",
+                "icon": "fa-solid fa-layer-group"
+            }
+        ],
+        "category_icon": "fa-solid fa-database"
+    },
+    {
+        "category": "Tools &amp; Workflow",
+        "subtitle": "Write it, version it, ship it.",
+        "wide": false,
+        "items": [
+            {
+                "name": "Git",
+                "icon": "fa-brands fa-git-alt"
+            },
+            {
+                "name": "Docker",
+                "icon": "fa-brands fa-docker"
+            },
+            {
+                "name": "Postman",
+                "icon": "fa-solid fa-paper-plane"
+            },
+            {
+            "name": "REST API",
+            "icon": "fa-solid fa-server"
+            },
+            {
+                "name": "LaTeX",
+                "icon": "fa-solid fa-file-lines"
+            },
+            {
+                "name": "Piazza",
+                "icon": "fa-solid fa-comments"
+            },
+            {
+                "name": "Slack",
+                "icon": "fa-brands fa-slack"
+            },
+            {
+                "name": "Trello",
+                "icon": "fa-brands fa-trello"
+            }
+        ],
+        "category_icon": "fa-solid fa-toolbox"
+    },
+    {
+        "category": "Languages",
+        "subtitle": "How I communicate the work.",
+        "wide": false,
+        "items": [
+            {
+                "name": "Persian \u2014 Native",
+                "icon": "fa-solid fa-language"
+            },
+            {
+                "name": "English \u2014 Upper-Intermediate",
+                "icon": "fa-solid fa-language"
+            }
+        ],
+        "category_icon": "fa-solid fa-language"
+    }
+]

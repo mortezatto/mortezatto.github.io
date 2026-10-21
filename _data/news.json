@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2025",
+    "type": "Publication",
+    "icon": "fa-solid fa-file-lines",
+    "html": "\"TL-CGAN\" — a transfer-learning framework hardening ECG classifiers against adversarial attacks — is currently under revision at <em>PLOS ONE</em>."
+  },
+  {
+    "date": "2025",
+    "type": "Service",
+    "icon": "fa-solid fa-magnifying-glass",
+    "html": "Reviewed for <strong>PLOS ONE</strong>."
+  },
+  {
+    "date": "2025",
+    "type": "Service",
+    "icon": "fa-solid fa-magnifying-glass",
+    "html": "Reviewed for <strong>Biomedical Signal Processing and Control</strong>."
+  },
+  {
+    "date": "2024",
+    "type": "Publication",
+    "icon": "fa-solid fa-microscope",
+    "html": "Collaborative work on histopathological skin cancer segmentation is in progress with a multi-institution research team."
+  },
+  {
+    "date": "Sep 2024",
+    "type": "Event",
+    "icon": "fa-solid fa-chalkboard-user",
+    "html": "Served as Technical Staff Member at the <strong>International Summer School on IoT</strong>, Erasmus+ IoTrain Project, Wasit University (remote)."
+  },
+  {
+    "date": "Jul 2024",
+    "type": "Service",
+    "icon": "fa-solid fa-magnifying-glass",
+    "html": "Reviewed for the <strong>33rd ACM CIKM 2024</strong>, Boise, Idaho, USA."
+  },
+  {
+    "date": "Jun 2024",
+    "type": "Service",
+    "icon": "fa-solid fa-magnifying-glass",
+    "html": "Reviewed for <strong>Expert Systems with Applications</strong>, Elsevier."
+  },
+  {
+    "date": "Jan 2024",
+    "type": "Committee",
+    "icon": "fa-solid fa-users",
+    "html": "Joined the Quality Monitoring Committee, IoTrain-Erasmus+ Project, Bonn, Germany."
+  },
+  {
+    "date": "Fall 2023",
+    "type": "Talk",
+    "icon": "fa-solid fa-chalkboard-user",
+    "html": "Gave an invited presentation on the industrial potentials of IoT in main industries, IoTrain-Erasmus+ Project, Tehran."
+  },
+  {
+    "date": "Spring 2023",
+    "type": "Talk",
+    "icon": "fa-solid fa-chalkboard-user",
+    "html": "Gave an invited presentation to the Quality Monitoring Committee, IoTrain-Erasmus+ Project, Bucharest, Romania."
+  },
+  {
+    "date": "Winter 2023",
+    "type": "Scholarship",
+    "icon": "fa-solid fa-award",
+    "html": "Received a scholarship for the International Winter School in IoT, Shahid Chamran University, Ahvaz."
+  },
+  {
+    "date": "Summer 2022",
+    "type": "Visit",
+    "icon": "fa-solid fa-plane",
+    "html": "Visiting Scholar at the Staff Training &amp; Mobility Event, IoTrain-Erasmus+ Project, Siegen, Germany."
+  },
+  {
+    "date": "Fall 2022",
+    "type": "Award",
+    "icon": "fa-solid fa-trophy",
+    "html": "<strong>Winner</strong>, Research &amp; Technology Achievements Provincial Exhibition Award, Zanjan."
+  },
+  {
+    "date": "Fall 2016",
+    "type": "Workshop",
+    "icon": "fa-solid fa-lightbulb",
+    "html": "Participated in the Entrepreneurship Ideation Workshop, Gonabad Weekend."
+  }
+]

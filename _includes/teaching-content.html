@@ -1,0 +1,23 @@
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text hero-text--full">
+      <div class="eyebrow">Teaching</div>
+      <h1>Teaching &amp; Mentoring</h1>
+      <p class="role">{{ page.hero_role }}</p>
+    </div>
+  </div>
+</div>
+<main>
+  <section id="teaching-list" class="section--flush">
+    <div class="teach-grid">
+      {% for item in site.data.teaching %}
+      <div class="teach-card">
+        <span class="teach-role">{{ item.role }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+        <div class="teach-meta"><i class="fa-regular fa-clock"></i> {{ item.date }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>
