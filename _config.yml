@@ -27,7 +27,7 @@ avatar: /assets/img/og-cover.png     # used as the social-share preview image (o
 # Placeholders — swap "#" for the real profile URLs when available.
 socials:
   github_url: "#"
-  linkedin_url: "#"
+  linkedin_url: "https://www.linkedin.com/in/morteza-abedi-581b18154"
   scholar_url: "#"
   orcid_url: "https://orcid.org/0009-0007-6397-1962"
 
