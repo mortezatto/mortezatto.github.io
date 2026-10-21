@@ -1,7 +1,7 @@
 [
   {
     "id": "lecturer-assistant-ml-iot",
-    "title": "Lecturer Assistant — Machine Learning &amp; Deep Learning in IoT",
+    "title": "Lecturer Assistant: Machine Learning &amp; Deep Learning in IoT",
     "org": "IASBS, Zanjan · Prof. Dr.-Ing. Mahdi Bohlouli",
     "dates": "Apr – Sep 2024",
     "open": true,
@@ -14,7 +14,7 @@
   },
   {
     "id": "senior-research-engineer-isg",
-    "title": "Senior Research Engineer — Intelligent System Group (ISG)",
+    "title": "Senior Research Engineer: Intelligent System Group (ISG)",
     "org": "IASBS, Zanjan · Prof. Dr.-Ing. Mahdi Bohlouli",
     "dates": "Jan 2021 – Feb 2024",
     "open": false,
@@ -26,7 +26,7 @@
   },
   {
     "id": "research-staff-iotrain",
-    "title": "Research Staff — IoTrain Erasmus+ Project",
+    "title": "Research Staff: IoTrain Erasmus+ Project",
     "org": "IASBS, Zanjan · Prof. Dr.-Ing. Mahdi Bohlouli",
     "dates": "Sep 2022 – Dec 2024",
     "open": false,
@@ -38,7 +38,7 @@
   },
   {
     "id": "ta-intelligent-systems-iot",
-    "title": "Teaching Assistant — Intelligent Systems &amp; Applications in IoT",
+    "title": "Teaching Assistant: Intelligent Systems &amp; Applications in IoT",
     "org": "IASBS, Zanjan",
     "dates": "Fall 2023",
     "open": false,
@@ -49,7 +49,7 @@
   },
   {
     "id": "ta-distributed-systems",
-    "title": "Teaching Assistant — Distributed Systems",
+    "title": "Teaching Assistant: Distributed Systems",
     "org": "IASBS, Zanjan",
     "dates": "Winter 2024",
     "open": false,
